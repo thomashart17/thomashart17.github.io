@@ -44,7 +44,7 @@ const About = () => {
         <div className='about__content'>
           <div className='about__paragraph'>
             <p>
-              I'm a first year Computer Engineering student at the University of Waterloo.
+              I'm a first year computer engineering student at the University of Waterloo interested in both computer software and hardware. 
             </p>
           </div>
           <div className='about__skills'>
