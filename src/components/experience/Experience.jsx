@@ -28,7 +28,7 @@ const data = [
       'Acted as a leader and gave suggestions on how less experienced students could improve their programs',
       'Exhibited great attention to detail by grading student’s assignments based on a strict set of criteria',
     ],
-    image: FordLogo,
+    image: ChurchillLogo,
   },
 ]
 

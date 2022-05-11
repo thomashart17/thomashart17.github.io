@@ -1,6 +1,5 @@
 import React from 'react'
 import './projects.css'
-import Sample from '../../assets/sample.jpg'
 import PersonalWebsite from '../../assets/PersonalWebsite.jpg'
 import ArduinoSnake from '../../assets/ArduinoSnake.jpg'
 import NumberConverter from '../../assets/NumberConverter.jpg'
@@ -36,7 +35,7 @@ const data = [
     description: 'Personal portfolio website created using HTML, CSS, JavaScript and React.js.',
     links: [
       {
-        link: 'https://github.com/thomashart17',
+        link: 'https://github.com/thomashart17/thomashart17.github.io',
         icon: <BsGithub/>,
       }
     ],
