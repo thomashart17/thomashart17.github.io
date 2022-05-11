@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.2054d5cd.css",
-    "main.js": "/static/js/main.d887b4f7.js",
-    "static/media/sample.jpg": "/static/media/sample.76d0ae3cecc73930e0f9.jpg",
+    "main.js": "/static/js/main.b67a2a58.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/GolfStats.jpg": "/static/media/GolfStats.73e11d8ca6aad490d25a.jpg",
     "static/media/ford-logo.png": "/static/media/ford-logo.d5ca12613be6fb08afce.png",
-    "static/media/churchill-logo.png": "/static/media/churchill-logo.890cea8025cf6f83a44f.png",
+    "static/media/churchill-logo.png": "/static/media/churchill-logo.584cf518284f1793fd59.png",
     "static/media/Resume.pdf": "/static/media/Resume.7f0a77ba5340f5c862b2.pdf",
     "static/media/NumberConverter.jpg": "/static/media/NumberConverter.498f9eeb171168c83c2a.jpg",
     "static/media/DiscordBot.jpg": "/static/media/DiscordBot.569eb1e737845bbc6032.jpg",
@@ -17,10 +16,10 @@
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
     "index.html": "/index.html",
     "main.2054d5cd.css.map": "/static/css/main.2054d5cd.css.map",
-    "main.d887b4f7.js.map": "/static/js/main.d887b4f7.js.map"
+    "main.b67a2a58.js.map": "/static/js/main.b67a2a58.js.map"
   },
   "entrypoints": [
     "static/css/main.2054d5cd.css",
-    "static/js/main.d887b4f7.js"
+    "static/js/main.b67a2a58.js"
   ]
 }
