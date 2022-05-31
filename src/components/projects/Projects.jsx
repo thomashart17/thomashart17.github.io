@@ -8,18 +8,21 @@ import MorseCode from '../../assets/MorseCode.jpg'
 import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
-import {BsGithub, BsYoutube} from 'react-icons/bs'
-import {SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact} from 'react-icons/si'
+import { BsGithub, BsYoutube } from 'react-icons/bs'
+import { SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics } from 'react-icons/si'
 
 const logos = {
-  'C': <SiC size={20}/>,
-  'C++': <SiCplusplus size={20}/>,
-  'CSS': <SiCss3 size={20}/>,
-  'HTML': <SiHtml5 size={20}/>,
-  'Java': <SiJava size={20}/>,
-  'JavaScript': <SiJavascript size={20}/>,
-  'Python': <SiPython size={20}/>,
-  'React.js': <SiReact size={20}/>,
+  'Android': <SiAndroid size={20} />,
+  'Arduino': <SiArduino size={20} />,
+  'C': <SiC size={20} />,
+  'C++': <SiCplusplus size={20} />,
+  'CSS': <SiCss3 size={20} />,
+  'HTML': <SiHtml5 size={20} />,
+  'Java': <SiJava size={20} />,
+  'JavaScript': <SiJavascript size={20} />,
+  'Python': <SiPython size={20} />,
+  'React.js': <SiReact size={20} />,
+  'STM': <SiStmicroelectronics size={20} />,
 }
 
 const data = [
@@ -36,7 +39,7 @@ const data = [
     links: [
       {
         link: 'https://github.com/thomashart17/thomashart17.github.io',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       }
     ],
   },
@@ -44,6 +47,7 @@ const data = [
     image: ArduinoSnake,
     title: 'Arduino LED Matrix Snake Game',
     languages: [
+      'Arduino',
       'C',
       'Python',
     ],
@@ -51,7 +55,7 @@ const data = [
     links: [
       {
         link: 'https://github.com/thomashart17/ArduinoLEDMatrixSnake',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
     ],
   },
@@ -59,13 +63,14 @@ const data = [
     image: NumberConverter,
     title: 'Number Converter App',
     languages: [
+      'Android',
       'Java',
     ],
     description: 'Android app that allows users to convert between 4 number systems.',
     links: [
       {
         link: 'https://github.com/thomashart17/NumberConverter',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
     ],
   },
@@ -79,7 +84,7 @@ const data = [
     links: [
       {
         link: 'https://github.com/thomashart17/crypto-terminal',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
     ],
   },
@@ -87,13 +92,14 @@ const data = [
     image: MorseCode,
     title: 'STM32 Morse Code Game',
     languages: [
+      'STM',
       'C',
     ],
     description: 'Morse code game created using an STM32 microcontroller and I2C LCD display.',
     links: [
       {
         link: 'https://github.com/thomashart17/MorseCodeGameSTM32',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
     ],
   },
@@ -107,15 +113,15 @@ const data = [
     links: [
       {
         link: 'https://github.com/xzc21/Discord-Bot',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
       {
         link: 'https://devpost.com/software/discord-game-bot-nk024t',
-        icon: <SiDevpost/>,
+        icon: <SiDevpost />,
       },
       {
         link: 'https://www.youtube.com/watch?v=vG9G4DSoYMY',
-        icon: <BsYoutube/>,
+        icon: <BsYoutube />,
       }
     ],
   },
@@ -129,7 +135,7 @@ const data = [
     links: [
       {
         link: 'https://github.com/thomashart17/MiniGolfGame',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
     ],
   },
@@ -143,7 +149,7 @@ const data = [
     links: [
       {
         link: 'https://github.com/thomashart17/GolfStatTracker',
-        icon: <BsGithub/>,
+        icon: <BsGithub />,
       },
     ],
   },
@@ -156,11 +162,11 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="container projects__container">
         {
-          data.map(({image, title, languages, description, links}) => {
+          data.map(({ image, title, languages, description, links }) => {
             return (
               <article className='projects__item'>
                 <div className="projects__item-image">
-                  <img src={image} alt={title}/>
+                  <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
                 <ul>
@@ -175,7 +181,7 @@ const Projects = () => {
                 <p>{description}</p>
                 <div className='projects__item-btn'>
                   {
-                    links.map(({link, icon}) => {
+                    links.map(({ link, icon }) => {
                       return (
                         <a href={link} target='_blank'>{icon}</a>
                       )
