@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.30fb12ae.css",
-    "main.js": "/static/js/main.0422b143.js",
+    "main.js": "/static/js/main.4472a1e5.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/GolfStats.jpg": "/static/media/GolfStats.73e11d8ca6aad490d25a.jpg",
     "static/media/ford-logo.png": "/static/media/ford-logo.d5ca12613be6fb08afce.png",
     "static/media/churchill-logo.png": "/static/media/churchill-logo.584cf518284f1793fd59.png",
-    "static/media/Resume.pdf": "/static/media/Resume.4d32e1ad8d9b17d218aa.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.e9c2418e892d7562fa81.pdf",
     "static/media/NumberConverter.jpg": "/static/media/NumberConverter.498f9eeb171168c83c2a.jpg",
     "static/media/DiscordBot.jpg": "/static/media/DiscordBot.569eb1e737845bbc6032.jpg",
+    "static/media/peraso-logo.png": "/static/media/peraso-logo.8f55bd3734e49980e0e9.png",
     "static/media/me-about.jpeg": "/static/media/me-about.bd0852833612eebd076d.jpeg",
     "static/media/CryptoTerminal.jpg": "/static/media/CryptoTerminal.0446e012c9a423b7ebcf.jpg",
     "static/media/PersonalWebsite.jpg": "/static/media/PersonalWebsite.1e76149ea9bc5ef0503f.jpg",
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
     "index.html": "/index.html",
     "main.30fb12ae.css.map": "/static/css/main.30fb12ae.css.map",
-    "main.0422b143.js.map": "/static/js/main.0422b143.js.map"
+    "main.4472a1e5.js.map": "/static/js/main.4472a1e5.js.map"
   },
   "entrypoints": [
     "static/css/main.30fb12ae.css",
-    "static/js/main.0422b143.js"
+    "static/js/main.4472a1e5.js"
   ]
 }
