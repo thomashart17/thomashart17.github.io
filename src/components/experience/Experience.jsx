@@ -1,11 +1,22 @@
 import React from 'react'
 import './experience.css'
-import {GiSevenPointedStar} from 'react-icons/gi'
-import {TiLocation, TiCalendar} from 'react-icons/ti'
+import { GiSevenPointedStar } from 'react-icons/gi'
+import { TiLocation, TiCalendar } from 'react-icons/ti'
+import PerasoLogo from '../../assets/peraso-logo.png'
 import FordLogo from '../../assets/ford-logo.png'
 import ChurchillLogo from '../../assets/churchill-logo.png'
 
 const data = [
+  {
+    company: 'Peraso Technologies',
+    title: 'Software Engineer',
+    location: 'Toronto, ON',
+    dates: 'Sep 2022 - Present',
+    bullets: [
+      'Working with the Device Software team to build firmware and internal tools using C++.',
+    ],
+    image: PerasoLogo,
+  },
   {
     company: 'Ford Motor Company',
     title: 'Autonomous Vehicle Android Developer',
@@ -38,31 +49,31 @@ const Experience = () => {
       <h5>Where I've Worked</h5>
       <h2>My Experience</h2>
       {
-        data.map(({company, title, location, dates, bullets, image}, index) => {
+        data.map(({ company, title, location, dates, bullets, image }, index) => {
           return (
             <div className='container experience__container'>
               {
-                index%2 === 1 ? <img src={image} alt={company}/> : <></>
+                index % 2 === 1 ? <img src={image} alt={company} /> : <></>
               }
               <div>
                 <h3 className='experience__company'>{company}</h3>
                 <h3 className='experience__title'>{title}</h3>
                 <div className='experience__info'>
                   <div className="experience__info-item">
-                    <TiLocation className='experience__icon'/>
+                    <TiLocation className='experience__icon' />
                     <h4>{location}</h4>
                   </div>
                   <div className="experience__info-item">
-                    <TiCalendar className='experience__icon'/>
+                    <TiCalendar className='experience__icon' />
                     <h4>{dates}</h4>
                   </div>
                 </div>
                 <div className='experience__content'>
                   {
                     bullets.map((value) => {
-                      return(
+                      return (
                         <article className='experience__details'>
-                          <GiSevenPointedStar className='experience__details-icon'/>
+                          <GiSevenPointedStar className='experience__details-icon' />
                           <h4>{value}</h4>
                         </article>
                       )
@@ -71,7 +82,7 @@ const Experience = () => {
                 </div>
               </div>
               {
-                index%2 === 0 ? <img src={image} alt={company}/> : <></>
+                index % 2 === 0 ? <img src={image} alt={company} /> : <></>
               }
             </div>
           )
