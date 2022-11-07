@@ -1,5 +1,7 @@
 import React from 'react'
 import './projects.css'
+import Planet from '../../assets/Plan-et.jpg'
+import MedicalAssistantBot from '../../assets/MedicalAssistantBot.jpg'
 import PersonalWebsite from '../../assets/PersonalWebsite.jpg'
 import ArduinoSnake from '../../assets/ArduinoSnake.jpg'
 import NumberConverter from '../../assets/NumberConverter.jpg'
@@ -9,7 +11,7 @@ import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
 import { BsGithub, BsYoutube } from 'react-icons/bs'
-import { SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics } from 'react-icons/si'
+import { SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn } from 'react-icons/si'
 
 const logos = {
   'Android': <SiAndroid size={20} />,
@@ -22,10 +24,55 @@ const logos = {
   'JavaScript': <SiJavascript size={20} />,
   'Python': <SiPython size={20} />,
   'React.js': <SiReact size={20} />,
+  'scikit-learn': <SiScikitlearn size={20} />,
   'STM': <SiStmicroelectronics size={20} />,
 }
 
 const data = [
+  {
+    image: Planet,
+    title: 'PLAN-ET',
+    languages: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+    ],
+    description: 'Application that can help students plan out their weekly schedules.',
+    links: [
+      {
+        link: 'https://github.com/theo110/PLAN-ET',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/plan-et',
+        icon: <SiDevpost />,
+      },
+    ],
+  },
+  {
+    image: MedicalAssistantBot,
+    title: 'Medical Assistant Bot',
+    languages: [
+      'Python',
+      'scikit-learn',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+    ],
+    description: 'Application that leverages machine learning to predict potential diagnoses based on symptoms.',
+    links: [
+      {
+        link: 'https://github.com/thomashart17/MedicalVirtualAssistantHTV7',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/medical-chatbot-kptu9d',
+        icon: <SiDevpost />,
+      },
+    ],
+  },
   {
     image: PersonalWebsite,
     title: 'Personal Website',
