@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.30fb12ae.css",
-    "main.js": "/static/js/main.4472a1e5.js",
+    "main.js": "/static/js/main.d89cbcc9.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/GolfStats.jpg": "/static/media/GolfStats.73e11d8ca6aad490d25a.jpg",
+    "static/media/Plan-et.jpg": "/static/media/Plan-et.396dbc346d6c152337ec.jpg",
+    "static/media/MedicalAssistantBot.jpg": "/static/media/MedicalAssistantBot.949a5dff32f6d87eccd2.jpg",
     "static/media/ford-logo.png": "/static/media/ford-logo.d5ca12613be6fb08afce.png",
     "static/media/churchill-logo.png": "/static/media/churchill-logo.584cf518284f1793fd59.png",
     "static/media/Resume.pdf": "/static/media/Resume.e9c2418e892d7562fa81.pdf",
@@ -17,10 +19,10 @@
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
     "index.html": "/index.html",
     "main.30fb12ae.css.map": "/static/css/main.30fb12ae.css.map",
-    "main.4472a1e5.js.map": "/static/js/main.4472a1e5.js.map"
+    "main.d89cbcc9.js.map": "/static/js/main.d89cbcc9.js.map"
   },
   "entrypoints": [
     "static/css/main.30fb12ae.css",
-    "static/js/main.4472a1e5.js"
+    "static/js/main.d89cbcc9.js"
   ]
 }
