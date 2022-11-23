@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.css'
+import MagicGlove from '../../assets/MagicGlove.jpg'
 import Planet from '../../assets/Plan-et.jpg'
 import MedicalAssistantBot from '../../assets/MedicalAssistantBot.jpg'
 import PersonalWebsite from '../../assets/PersonalWebsite.jpg'
@@ -11,7 +12,7 @@ import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
 import { BsGithub, BsYoutube } from 'react-icons/bs'
-import { SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn } from 'react-icons/si'
+import { SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi } from 'react-icons/si'
 
 const logos = {
   'Android': <SiAndroid size={20} />,
@@ -23,12 +24,36 @@ const logos = {
   'Java': <SiJava size={20} />,
   'JavaScript': <SiJavascript size={20} />,
   'Python': <SiPython size={20} />,
+  'Raspberry Pi': <SiRaspberrypi size={20} />,
   'React.js': <SiReact size={20} />,
   'scikit-learn': <SiScikitlearn size={20} />,
   'STM': <SiStmicroelectronics size={20} />,
 }
 
 const data = [
+  {
+    image: MagicGlove,
+    title: 'The Magic Glove',
+    languages: [
+      'Raspberry Pi',
+      'Python',
+    ],
+    description: 'An assistive device for people who are blind or visually impaired.',
+    links: [
+      {
+        link: 'https://github.com/thomashart17/MagicGlove',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/the-magic-glove',
+        icon: <SiDevpost />,
+      },
+      {
+        link: 'https://www.youtube.com/watch?v=UgMxqQqd3D8',
+        icon: <BsYoutube />,
+      },
+    ]
+  },
   {
     image: Planet,
     title: 'PLAN-ET',
