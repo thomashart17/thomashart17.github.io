@@ -21,14 +21,15 @@ const frameworks = [
 ]
 
 const tools = [
+  'Arduino',
+  'Raspberry Pi',
   'Git',
   'GitHub',
   'Android Studio',
   'VS Code',
+  'Visual Studio',
   'JIRA',
   'Confluence',
-  'Arduino',
-  'Raspberry Pi',
 ]
 
 const About = () => {
