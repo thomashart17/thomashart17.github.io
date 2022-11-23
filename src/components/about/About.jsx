@@ -28,6 +28,7 @@ const tools = [
   'JIRA',
   'Confluence',
   'Arduino',
+  'Raspberry Pi',
 ]
 
 const About = () => {
