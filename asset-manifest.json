@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30fb12ae.css",
-    "main.js": "/static/js/main.9c7317bd.js",
+    "main.js": "/static/js/main.e37dbe71.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
@@ -20,10 +20,10 @@
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
     "index.html": "/index.html",
     "main.30fb12ae.css.map": "/static/css/main.30fb12ae.css.map",
-    "main.9c7317bd.js.map": "/static/js/main.9c7317bd.js.map"
+    "main.e37dbe71.js.map": "/static/js/main.e37dbe71.js.map"
   },
   "entrypoints": [
     "static/css/main.30fb12ae.css",
-    "static/js/main.9c7317bd.js"
+    "static/js/main.e37dbe71.js"
   ]
 }
