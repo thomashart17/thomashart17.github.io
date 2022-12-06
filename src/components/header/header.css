@@ -17,6 +17,14 @@ header {
     transform: translateY(-70%);
 }
 
+.header__subtitle {
+    font-size: 1.5rem;
+}
+
+.header__above-title {
+    font-size: 1.2rem;
+}
+
 .header__buttons {
     margin-top: 2.5rem;
     display: flex;
@@ -61,7 +69,8 @@ header {
         height: 100vh;
     }
 
-    .header__socials, .scroll__down {
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
