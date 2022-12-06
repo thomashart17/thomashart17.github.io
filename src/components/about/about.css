@@ -33,6 +33,11 @@
     background: transparent;
 }
 
+.about__skills h2 {
+    color: var(--color-primary);
+    text-align: center;
+}
+
 .about__skills ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -70,7 +75,7 @@
         grid-template-columns: 1fr;
         gap: 0;
     }
-    
+
     .about_me {
         width: 50%;
         margin: 2rem auto 4rem;
