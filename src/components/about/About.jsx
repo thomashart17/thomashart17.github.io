@@ -3,9 +3,10 @@ import './about.css'
 import Me from '../../assets/me-about.jpeg'
 
 const languages = [
+  'C++',
   'Java',
   'Python',
-  'C/C++',
+  'C',
   'HTML',
   'CSS',
   'JavaScript',
