@@ -11,9 +11,12 @@ const data = [
     company: 'Peraso Technologies',
     title: 'Software Engineer',
     location: 'Toronto, ON',
-    dates: 'Sep 2022 - Present',
+    dates: 'Sep 2022 - Dec 2022',
     bullets: [
-      'Working with the Device Software team to build firmware and internal tools using C++.',
+      'Worked with the Device Software team to build firmware and internal tools for 5G radio devices using C++.',
+      'Created a custom XML parsing and generation tool to allow for easy input into an EEPROM programming application.',
+      'Improved error checking and efficiency of CLI code to eliminate crashes resulting from invalid user input.',
+      'Updated various CLI commands to improve output clarity and remove redundant outputs.',
     ],
     image: PerasoLogo,
   },
@@ -25,6 +28,7 @@ const data = [
     bullets: [
       'Built Android applications using Java for the in-vehicle infotainment system.',
       'Leveraged hidden AOSP classes with minimal documentation to allow for a key feature to be implemented.',
+      'Migrated features to the latest versino of Android to allow for newer technologies to be implemented.',
       'Followed proper development practices to write clean and efficient code and documentation.',
     ],
     image: FordLogo,
