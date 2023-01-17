@@ -26,7 +26,7 @@ const data = [
     location: 'Remote',
     dates: 'Jan 2022 - Apr 2022',
     bullets: [
-      'Built Android applications using Java for the in-vehicle infotainment system.',
+      'Built Android applications using Java for an in-vehicle infotainment system.',
       'Leveraged hidden AOSP classes with minimal documentation to allow for a key feature to be implemented.',
       'Migrated features to the latest versino of Android to allow for newer technologies to be implemented.',
       'Followed proper development practices to write clean and efficient code and documentation.',
