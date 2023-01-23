@@ -14,10 +14,12 @@ const languages = [
 ]
 
 const frameworks = [
-  'scikit-learn',
   'Android SDK',
   'AOSP',
   'React.js',
+  'Django',
+  'scikit-learn',
+  'Cohere',
   'LibGDX',
 ]
 
