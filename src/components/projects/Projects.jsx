@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.css'
+import FinanceBroTranslator from '../../assets/FinanceBroTranslator.png'
 import MagicGlove from '../../assets/MagicGlove.jpg'
 import Planet from '../../assets/Plan-et.jpg'
 import MedicalAssistantBot from '../../assets/MedicalAssistantBot.jpg'
@@ -12,7 +13,7 @@ import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
 import { BsGithub, BsYoutube } from 'react-icons/bs'
-import { SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi } from 'react-icons/si'
+import { SiDjango, SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi } from 'react-icons/si'
 
 const logos = {
   'Android': <SiAndroid size={20} />,
@@ -20,6 +21,7 @@ const logos = {
   'C': <SiC size={20} />,
   'C++': <SiCplusplus size={20} />,
   'CSS': <SiCss3 size={20} />,
+  'Django': <SiDjango size={20} />,
   'HTML': <SiHtml5 size={20} />,
   'Java': <SiJava size={20} />,
   'JavaScript': <SiJavascript size={20} />,
@@ -31,6 +33,32 @@ const logos = {
 }
 
 const data = [
+  {
+    image: FinanceBroTranslator,
+    title: 'Finance Bro Translator',
+    languages: [
+      'Python',
+      'Django',
+      'HTML',
+      'CSS',
+      'JavaScript',
+    ],
+    description: 'A tool to translate complex financial jargon into easy to understand text.',
+    links: [
+      {
+        link: 'https://github.com/henryklinck/finance_translator',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/finance-bros-translator',
+        icon: <SiDevpost />,
+      },
+      {
+        link: 'https://www.youtube.com/watch?v=Nm6n0PFawEQ',
+        icon: <BsYoutube />,
+      },
+    ],
+  },
   {
     image: MagicGlove,
     title: 'The Magic Glove',
