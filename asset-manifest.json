@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bee94d28.css",
-    "main.js": "/static/js/main.96054e73.js",
+    "main.js": "/static/js/main.2d9dee00.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
@@ -18,13 +18,14 @@
     "static/media/CryptoTerminal.jpg": "/static/media/CryptoTerminal.0446e012c9a423b7ebcf.jpg",
     "static/media/FinanceBroTranslator.png": "/static/media/FinanceBroTranslator.cbdd2e8e611ee385d197.png",
     "static/media/PersonalWebsite.jpg": "/static/media/PersonalWebsite.1e76149ea9bc5ef0503f.jpg",
+    "static/media/CureConnect.png": "/static/media/CureConnect.16a1ab3e37a598df52ce.png",
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
     "index.html": "/index.html",
     "main.bee94d28.css.map": "/static/css/main.bee94d28.css.map",
-    "main.96054e73.js.map": "/static/js/main.96054e73.js.map"
+    "main.2d9dee00.js.map": "/static/js/main.2d9dee00.js.map"
   },
   "entrypoints": [
     "static/css/main.bee94d28.css",
-    "static/js/main.96054e73.js"
+    "static/js/main.2d9dee00.js"
   ]
 }
