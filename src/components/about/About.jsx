@@ -11,6 +11,7 @@ const languages = [
   'CSS',
   'JavaScript',
   'VHDL',
+  'ARM Assembly',
 ]
 
 const frameworks = [

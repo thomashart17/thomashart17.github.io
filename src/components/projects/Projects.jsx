@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.css'
+import CureConnect from '../../assets/CureConnect.png'
 import FinanceBroTranslator from '../../assets/FinanceBroTranslator.png'
 import MagicGlove from '../../assets/MagicGlove.jpg'
 import Planet from '../../assets/Plan-et.jpg'
@@ -33,6 +34,29 @@ const logos = {
 }
 
 const data = [
+  {
+    image: CureConnect,
+    title: 'Cure Connect',
+    languages: [
+      'Python',
+      'Django',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+    ],
+    description: 'A tool to help speed up and simplify the process of getting medical care.',
+    links: [
+      {
+        link: 'https://github.com/Howass/MedHealth',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/cure-connect-ucmgqk',
+        icon: <SiDevpost />,
+      },
+    ],
+  },
   {
     image: FinanceBroTranslator,
     title: 'Finance Bro Translator',
