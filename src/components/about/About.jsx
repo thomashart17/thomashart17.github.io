@@ -25,8 +25,6 @@ const frameworks = [
 ]
 
 const tools = [
-  'Arduino',
-  'Raspberry Pi',
   'Git',
   'GitHub',
   'Android Studio',
@@ -34,6 +32,11 @@ const tools = [
   'Visual Studio',
   'JIRA',
   'Confluence',
+]
+
+const hardware = [
+  'Arduino',
+  'Raspberry Pi',
 ]
 
 const About = () => {
@@ -80,6 +83,16 @@ const About = () => {
             <ul>
               {
                 tools.map((value) => {
+                  return (
+                    <li>{value}</li>
+                  )
+                })
+              }
+            </ul>
+            <h3>Hardware</h3>
+            <ul>
+              {
+                hardware.map((value) => {
                   return (
                     <li>{value}</li>
                   )
