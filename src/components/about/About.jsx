@@ -7,6 +7,7 @@ const languages = [
   'Java',
   'Python',
   'C',
+  'Rust',
   'HTML',
   'CSS',
   'JavaScript',
@@ -27,8 +28,9 @@ const frameworks = [
 const tools = [
   'Git',
   'GitHub',
-  'Android Studio',
   'VS Code',
+  'CMake',
+  'Android Studio',
   'Visual Studio',
   'JIRA',
   'Confluence',
