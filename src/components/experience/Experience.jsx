@@ -2,11 +2,25 @@ import React from 'react'
 import './experience.css'
 import { GiSevenPointedStar } from 'react-icons/gi'
 import { TiLocation, TiCalendar } from 'react-icons/ti'
+import WaterlooLogo from '../../assets/waterloo-logo.png'
 import PerasoLogo from '../../assets/peraso-logo.png'
 import FordLogo from '../../assets/ford-logo.png'
 import ChurchillLogo from '../../assets/churchill-logo.png'
 
 const data = [
+  {
+    company: 'University of Waterloo',
+    title: 'Research Assistant',
+    location: 'Waterloo, ON',
+    dates: 'May 2023 - Present',
+    bullets: [
+      'Collaborating with a team of researchers supervised by professor Arie Gurfinkel to verify Rust code using the SeaHorn verification framework.',
+      'Investigating alternatives to the Rust standard library vector class to improve runtime performance of verification jobs.',
+      'Demonstrating the effectiveness of the SeaHorn framework by creating jobs to identify critical errors in previous versions of widely used Rust crates.',
+      'Developed a custom Python script to automate the generation of boilerplate code for verification jobs, improving development times.',
+    ],
+    image: WaterlooLogo,
+  },
   {
     company: 'Peraso Technologies',
     title: 'Software Engineer',
