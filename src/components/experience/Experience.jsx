@@ -16,7 +16,7 @@ const data = [
     bullets: [
       'Collaborating with a team of researchers supervised by professor Arie Gurfinkel to verify Rust code using the SeaHorn verification framework.',
       'Investigating alternatives to the Rust standard library vector class to improve runtime performance of verification jobs.',
-      'Demonstrating the effectiveness of the SeaHorn framework by creating jobs to identify critical errors in previous versions of widely used Rust crates.',
+      'Demonstrating the effectiveness of the SeaHorn framework by creating jobs to identify critical errors in old versions of widely used Rust crates.',
       'Developed a custom Python script to automate the generation of boilerplate code for verification jobs, improving development times.',
     ],
     image: WaterlooLogo,

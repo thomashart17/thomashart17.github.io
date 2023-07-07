@@ -13,6 +13,7 @@ const languages = [
   'JavaScript',
   'VHDL',
   'ARM Assembly',
+  'LaTeX',
 ]
 
 const frameworks = [
@@ -23,6 +24,7 @@ const frameworks = [
   'scikit-learn',
   'Cohere',
   'LibGDX',
+  'SeaHorn',
 ]
 
 const tools = [
