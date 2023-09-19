@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.css'
+import PicPerfect from '../../assets/PicPerfect.jpg'
 import CureConnect from '../../assets/CureConnect.png'
 import FinanceBroTranslator from '../../assets/FinanceBroTranslator.png'
 import MagicGlove from '../../assets/MagicGlove.jpg'
@@ -14,7 +15,7 @@ import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
 import { BsGithub, BsYoutube } from 'react-icons/bs'
-import { SiDjango, SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi } from 'react-icons/si'
+import { SiDjango, SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi, SiTensorflow, SiOpencv } from 'react-icons/si'
 
 const logos = {
   'Android': <SiAndroid size={20} />,
@@ -26,14 +27,41 @@ const logos = {
   'HTML': <SiHtml5 size={20} />,
   'Java': <SiJava size={20} />,
   'JavaScript': <SiJavascript size={20} />,
+  'OpenCV': <SiOpencv size={20} />,
   'Python': <SiPython size={20} />,
   'Raspberry Pi': <SiRaspberrypi size={20} />,
   'React.js': <SiReact size={20} />,
   'scikit-learn': <SiScikitlearn size={20} />,
   'STM': <SiStmicroelectronics size={20} />,
+  'TensorFlow': <SiTensorflow size={20} />,
 }
 
 const data = [
+  {
+    image: PicPerfect,
+    title: 'Pic Perfect',
+    languages: [
+      'Raspberry Pi',
+      'Python',
+      'TensorFlow',
+      'OpenCV',
+    ],
+    description: 'AI-powered robot that allows you to take photos of yourself effortlessly.',
+    links: [
+      {
+        link: 'https://github.com/prachee-n16/pic-perfect',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/picture-perfect-oqgb92',
+        icon: <SiDevpost />,
+      },
+      {
+        link: 'https://youtu.be/yJHdFqeJDfY?si=TWOOABHnsrSOJMlK',
+        icon: <BsYoutube />,
+      }
+    ],
+  },
   {
     image: CureConnect,
     title: 'Cure Connect',
