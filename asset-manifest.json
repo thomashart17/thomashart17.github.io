@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.bee94d28.css",
-    "main.js": "/static/js/main.90835bfc.js",
+    "main.js": "/static/js/main.8f973018.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
+    "static/media/PicPerfect.jpg": "/static/media/PicPerfect.0b5b461424e6eb9ef1c1.jpg",
     "static/media/GolfStats.jpg": "/static/media/GolfStats.73e11d8ca6aad490d25a.jpg",
     "static/media/Plan-et.jpg": "/static/media/Plan-et.396dbc346d6c152337ec.jpg",
     "static/media/waterloo-logo.png": "/static/media/waterloo-logo.5dd7de2c1bd300863354.png",
@@ -23,10 +24,10 @@
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
     "index.html": "/index.html",
     "main.bee94d28.css.map": "/static/css/main.bee94d28.css.map",
-    "main.90835bfc.js.map": "/static/js/main.90835bfc.js.map"
+    "main.8f973018.js.map": "/static/js/main.8f973018.js.map"
   },
   "entrypoints": [
     "static/css/main.bee94d28.css",
-    "static/js/main.90835bfc.js"
+    "static/js/main.8f973018.js"
   ]
 }
