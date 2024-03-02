@@ -40,6 +40,10 @@ body {
     line-height: 1.7;
 }
 
+textarea {
+    font-family: inherit;
+}
+
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;
