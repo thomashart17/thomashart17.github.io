@@ -6,8 +6,22 @@ import WaterlooLogo from '../../assets/waterloo-logo.png'
 import PerasoLogo from '../../assets/peraso-logo.png'
 import FordLogo from '../../assets/ford-logo.png'
 import ChurchillLogo from '../../assets/churchill-logo.png'
+import AIDocsLogo from '../../assets/ai-docs-logo.png'
 
 const data = [
+  {
+    company: 'AI Docs',
+    title: 'Founder',
+    location: 'Vancouver, BC',
+    dates: 'Jan 2024 - Present',
+    bullets: [
+      'Spearheading the development of an innovative AI-powered tool aimed at automating the process of writing codebase documentation, designed to streamline software development processes and enhance developer productivity.',
+      'Leveraging prompt engineering and fine-tuning techniques to ensure the tool delivers consistently accurate and detailed documentation.',
+      'Implementing integrations with popular platforms like GitHub to seamlessly and automatically update the documentation with every code change.',
+      'Engaging with potential customers to identify common issues in existing documentation practices, using feedback to shape a feature roadmap.',
+    ],
+    image: AIDocsLogo,
+  },
   {
     company: 'University of Waterloo',
     title: 'Research Assistant',

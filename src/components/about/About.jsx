@@ -17,6 +17,7 @@ const languages = [
 ]
 
 const frameworks = [
+  'Langchain',
   'Android SDK',
   'AOSP',
   'React.js',
@@ -28,6 +29,7 @@ const frameworks = [
 ]
 
 const tools = [
+  'Linux',
   'Git',
   'GitHub',
   'VS Code',
