@@ -1,5 +1,6 @@
 import React from 'react'
 import './projects.css'
+import ArduinoStockDisplay from '../../assets/ArduinoStockDisplay.jpg'
 import PicPerfect from '../../assets/PicPerfect.jpg'
 import CureConnect from '../../assets/CureConnect.png'
 import FinanceBroTranslator from '../../assets/FinanceBroTranslator.png'
@@ -14,7 +15,7 @@ import MorseCode from '../../assets/MorseCode.jpg'
 import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
-import { BsGithub, BsYoutube } from 'react-icons/bs'
+import { BsGithub, BsGlobe, BsYoutube } from 'react-icons/bs'
 import { SiDjango, SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi, SiTensorflow, SiOpencv } from 'react-icons/si'
 
 const logos = {
@@ -38,6 +39,22 @@ const logos = {
 
 const data = [
   {
+    image: ArduinoStockDisplay,
+    title: 'Arduino Stock Ticker Display',
+    languages: [
+      'Arduino',
+      'C++',
+      'Python',
+    ],
+    description: 'Arduino-based stock ticker display that shows real-time stock prices.',
+    links: [
+      {
+        link: 'https://github.com/thomashart17/stock-ticker-display',
+        icon: <BsGithub />,
+      },
+    ],
+  },
+  {
     image: PicPerfect,
     title: 'Pic Perfect',
     languages: [
@@ -59,29 +76,6 @@ const data = [
       {
         link: 'https://youtu.be/yJHdFqeJDfY?si=TWOOABHnsrSOJMlK',
         icon: <BsYoutube />,
-      }
-    ],
-  },
-  {
-    image: CureConnect,
-    title: 'Cure Connect',
-    languages: [
-      'Python',
-      'Django',
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React.js',
-    ],
-    description: 'A tool to help speed up and simplify the process of getting medical care.',
-    links: [
-      {
-        link: 'https://github.com/Howass/MedHealth',
-        icon: <BsGithub />,
-      },
-      {
-        link: 'https://devpost.com/software/cure-connect-ucmgqk',
-        icon: <SiDevpost />,
       },
     ],
   },
@@ -156,46 +150,6 @@ const data = [
     ],
   },
   {
-    image: MedicalAssistantBot,
-    title: 'Medical Assistant Bot',
-    languages: [
-      'Python',
-      'scikit-learn',
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React.js',
-    ],
-    description: 'Application that leverages machine learning to predict potential diagnoses based on symptoms.',
-    links: [
-      {
-        link: 'https://github.com/thomashart17/MedicalVirtualAssistantHTV7',
-        icon: <BsGithub />,
-      },
-      {
-        link: 'https://devpost.com/software/medical-chatbot-kptu9d',
-        icon: <SiDevpost />,
-      },
-    ],
-  },
-  {
-    image: PersonalWebsite,
-    title: 'Personal Website',
-    languages: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React.js',
-    ],
-    description: 'Personal portfolio website created using HTML, CSS, JavaScript and React.js.',
-    links: [
-      {
-        link: 'https://github.com/thomashart17/thomashart17.github.io',
-        icon: <BsGithub />,
-      }
-    ],
-  },
-  {
     image: ArduinoSnake,
     title: 'Arduino LED Matrix Snake Game',
     languages: [
@@ -237,6 +191,73 @@ const data = [
       {
         link: 'https://github.com/thomashart17/crypto-terminal',
         icon: <BsGithub />,
+      },
+    ],
+  },
+  {
+    image: MedicalAssistantBot,
+    title: 'Medical Assistant Bot',
+    languages: [
+      'Python',
+      'scikit-learn',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+    ],
+    description: 'Application that leverages machine learning to predict potential diagnoses based on symptoms.',
+    links: [
+      {
+        link: 'https://github.com/thomashart17/MedicalVirtualAssistantHTV7',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/medical-chatbot-kptu9d',
+        icon: <SiDevpost />,
+      },
+    ],
+  },
+  {
+    image: PersonalWebsite,
+    title: 'Personal Website',
+    languages: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+    ],
+    description: 'Personal portfolio website created using HTML, CSS, JavaScript and React.js.',
+    links: [
+      {
+        link: 'https://github.com/thomashart17/thomashart17.github.io',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://thomashart.tech',
+        icon: <BsGlobe />,
+      }
+    ],
+  },
+  {
+    image: CureConnect,
+    title: 'Cure Connect',
+    languages: [
+      'Python',
+      'Django',
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React.js',
+    ],
+    description: 'A tool to help speed up and simplify the process of getting medical care.',
+    links: [
+      {
+        link: 'https://github.com/Howass/MedHealth',
+        icon: <BsGithub />,
+      },
+      {
+        link: 'https://devpost.com/software/cure-connect-ucmgqk',
+        icon: <SiDevpost />,
       },
     ],
   },
@@ -334,6 +355,11 @@ const Projects = () => {
                 <div className='projects__item-btn'>
                   {
                     links.map(({ link, icon }) => {
+                      if (link === 'https://thomashart.tech') {
+                        return (
+                          <a href={link}>{icon}</a>
+                        )
+                      }
                       return (
                         <a href={link} target='_blank'>{icon}</a>
                       )
