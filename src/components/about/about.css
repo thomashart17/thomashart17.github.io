@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 90%;
         margin: 0 auto 3rem;
         grid-template-columns: 1fr;
         gap: 0;
@@ -107,7 +107,6 @@
     }
 
     .about__paragraph {
-        margin: 1.5rem 0;
         margin-top: 2rem;
     }
 
