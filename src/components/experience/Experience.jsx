@@ -6,7 +6,7 @@ import WaterlooLogo from '../../assets/waterloo-logo.png'
 import PerasoLogo from '../../assets/peraso-logo.png'
 import FordLogo from '../../assets/ford-logo.png'
 import ChurchillLogo from '../../assets/churchill-logo.png'
-import AIDocsLogo from '../../assets/ai-docs-logo.png'
+import AIDocsLogo from '../../assets/ai-docs-logo.svg'
 
 const data = [
   {
@@ -19,6 +19,7 @@ const data = [
       'Leveraging prompt engineering and fine-tuning techniques to ensure the tool delivers consistently accurate and detailed documentation.',
       'Implementing integrations with popular platforms like GitHub to seamlessly and automatically update the documentation with every code change.',
       'Engaging with potential customers to identify common issues in existing documentation practices, using feedback to shape a feature roadmap.',
+      'Received the Overbeeke Family Entrepreneurship Excellence Award from the University of Waterloo\'s enterprise co-op pitch competition.',
     ],
     image: AIDocsLogo,
   },
