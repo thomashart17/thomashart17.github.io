@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5cea740.css",
-    "main.js": "/static/js/main.e6702188.js",
+    "main.css": "/static/css/main.91fcf163.css",
+    "main.js": "/static/js/main.f08a0212.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
     "static/media/PicPerfect.jpg": "/static/media/PicPerfect.0b5b461424e6eb9ef1c1.jpg",
+    "static/media/ArduinoStockDisplay.jpg": "/static/media/ArduinoStockDisplay.f3bb1cacd836796fdd11.jpg",
     "static/media/GolfStats.jpg": "/static/media/GolfStats.73e11d8ca6aad490d25a.jpg",
     "static/media/Plan-et.jpg": "/static/media/Plan-et.396dbc346d6c152337ec.jpg",
     "static/media/waterloo-logo.png": "/static/media/waterloo-logo.5dd7de2c1bd300863354.png",
     "static/media/MedicalAssistantBot.jpg": "/static/media/MedicalAssistantBot.949a5dff32f6d87eccd2.jpg",
     "static/media/ford-logo.png": "/static/media/ford-logo.d5ca12613be6fb08afce.png",
-    "static/media/Resume.pdf": "/static/media/Resume.9f43eb9d8838a92fd718.pdf",
+    "static/media/Resume.pdf": "/static/media/Resume.362e10beebc901c37716.pdf",
     "static/media/churchill-logo.png": "/static/media/churchill-logo.584cf518284f1793fd59.png",
     "static/media/NumberConverter.jpg": "/static/media/NumberConverter.498f9eeb171168c83c2a.jpg",
     "static/media/DiscordBot.jpg": "/static/media/DiscordBot.569eb1e737845bbc6032.jpg",
@@ -22,12 +23,13 @@
     "static/media/PersonalWebsite.jpg": "/static/media/PersonalWebsite.1e76149ea9bc5ef0503f.jpg",
     "static/media/CureConnect.png": "/static/media/CureConnect.16a1ab3e37a598df52ce.png",
     "static/media/MiniGolf.jpg": "/static/media/MiniGolf.482819d1cb3773145dac.jpg",
+    "static/media/ai-docs-logo.svg": "/static/media/ai-docs-logo.4b6aa63a7beeef7f933f16ed5ae0d909.svg",
     "index.html": "/index.html",
-    "main.f5cea740.css.map": "/static/css/main.f5cea740.css.map",
-    "main.e6702188.js.map": "/static/js/main.e6702188.js.map"
+    "main.91fcf163.css.map": "/static/css/main.91fcf163.css.map",
+    "main.f08a0212.js.map": "/static/js/main.f08a0212.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5cea740.css",
-    "static/js/main.e6702188.js"
+    "static/css/main.91fcf163.css",
+    "static/js/main.f08a0212.js"
   ]
 }
