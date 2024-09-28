@@ -15,6 +15,7 @@ const languages = [
   'LaTeX',
   'VHDL',
   'ARM Assembly',
+  'SQL',
 ]
 
 const frameworks = [
@@ -23,22 +24,16 @@ const frameworks = [
   'AOSP',
   'React.js',
   'Django',
-  'scikit-learn',
-  'Cohere',
-  'LibGDX',
   'SeaHorn',
 ]
 
 const tools = [
   'Linux',
   'Git',
-  'GitHub',
   'CMake',
   'VS Code',
   'Android Studio',
   'Visual Studio',
-  'JIRA',
-  'Confluence',
 ]
 
 const hardware = [
