@@ -4,18 +4,17 @@ import Me from '../../assets/me-about.jpeg'
 
 const languages = [
   'C++',
+  'C',
   'Java',
   'Python',
-  'C',
   'Verilog',
   'Rust',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'LaTeX',
   'VHDL',
   'ARM Assembly',
   'SQL',
+  'HTML',
+  'CSS',
+  'JavaScript',
 ]
 
 const frameworks = [
@@ -24,22 +23,20 @@ const frameworks = [
   'AOSP',
   'React.js',
   'Django',
-  'SeaHorn',
 ]
 
 const tools = [
   'Linux',
   'Git',
   'CMake',
-  'VS Code',
-  'Android Studio',
-  'Visual Studio',
+  'Oscilloscope'
 ]
 
 const hardware = [
+  'STM32',
+  'FPGA',
   'Arduino',
   'Raspberry Pi',
-  'STM32',
 ]
 
 const About = () => {
