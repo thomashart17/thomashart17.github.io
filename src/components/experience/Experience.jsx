@@ -40,7 +40,7 @@ const data = [
     dates: 'Sep 2022 - Dec 2022',
     bullets: [
       'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manually entry.',
-      'Optimized the CLI code for 5G radio devices and removed redundant command outputs, resulting in 20% faster runtime, and elimination of all input errors.',
+      'Optimized the CLI firmware for 5G radio devices and removed redundant command outputs, resulting in 20% faster runtime, and elimination of all input errors.',
     ],
     image: PerasoLogo,
   },
