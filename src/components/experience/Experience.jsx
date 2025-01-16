@@ -7,8 +7,19 @@ import PerasoLogo from '../../assets/peraso-logo.png'
 import FordLogo from '../../assets/ford-logo.png'
 import ChurchillLogo from '../../assets/churchill-logo.png'
 import AIDocsLogo from '../../assets/ai-docs-logo.svg'
+import RxFoodLogo from '../../assets/rx-food-logo.svg'
 
 const data = [
+  {
+    company: 'RxFood',
+    title: 'Data Engineer',
+    location: 'Toronto, ON',
+    dates: 'Jan 2025 - Present',
+    bullets: [
+      'Working on the data engineering team to build various data anlysis projects using Python and SQL.',
+    ],
+    image: RxFoodLogo,
+  },
   {
     company: 'AI Docs',
     title: 'Founder',
@@ -23,7 +34,7 @@ const data = [
   },
   {
     company: 'University of Waterloo',
-    title: 'Research Assistant',
+    title: 'Undergraduate Research Assistant',
     location: 'Waterloo, ON',
     dates: 'May 2023 - Aug 2023',
     bullets: [
