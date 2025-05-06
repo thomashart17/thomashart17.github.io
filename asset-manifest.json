@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0db6d951.css",
-    "main.js": "/static/js/main.c3a4b3c7.js",
+    "main.css": "/static/css/main.cc10bdc7.css",
+    "main.js": "/static/js/main.4cf274ae.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
@@ -25,11 +25,11 @@
     "static/media/ai-docs-logo.svg": "/static/media/ai-docs-logo.4b6aa63a7beeef7f933f16ed5ae0d909.svg",
     "static/media/rx-food-logo.svg": "/static/media/rx-food-logo.9a0c829941ed426bf94b8e96825e292e.svg",
     "index.html": "/index.html",
-    "main.0db6d951.css.map": "/static/css/main.0db6d951.css.map",
-    "main.c3a4b3c7.js.map": "/static/js/main.c3a4b3c7.js.map"
+    "main.cc10bdc7.css.map": "/static/css/main.cc10bdc7.css.map",
+    "main.4cf274ae.js.map": "/static/js/main.4cf274ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.0db6d951.css",
-    "static/js/main.c3a4b3c7.js"
+    "static/css/main.cc10bdc7.css",
+    "static/js/main.4cf274ae.js"
   ]
 }
