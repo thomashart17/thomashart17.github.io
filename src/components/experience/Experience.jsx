@@ -14,9 +14,10 @@ const data = [
     company: 'RxFood',
     title: 'Data Engineer',
     location: 'Toronto, ON',
-    dates: 'Jan 2025 - Present',
+    dates: 'Jan 2025 - Apr 2025',
     bullets: [
-      'Working on the data engineering team to build various data anlysis projects using Python and SQL.',
+      'Built a custom reporting engine using Python and PostgreSQL to automatically generate patient outcome reports for clinicians, saving 2-3 hours of manual work per report and improving long-term scalability.',
+      'Added interactive graphs and visualizations to the clinician portal using React.js and TypeScript, improving usability and enabling actionable insights into patient health trends for 600+ clinicians.'
     ],
     image: RxFoodLogo,
   },
@@ -29,6 +30,7 @@ const data = [
       'Leveraged prompt engineering and fine-tuning techniques on LLMs using Python and Langchain to create a tool that automatically writes documentation for codebases, enabling faster and more streamlined development.',
       'Won the Overbeeke Family Entrepreneurship Excellence Award ($5,000) from the University of Waterloo’s enterprise co-op pitch competition out of 30+ students, recognizing the tool’s impact on development efficiency.',
       'Engaged with potential users to identify key documentation challenges, directly influencing design decisions.',
+      'Made the strategic decision to discontinue the project after determining that existing LLMs lacked the necessary contextual understanding, and that developing a new LLM wasn’t feasible due to financial constraints.'
     ],
     image: AIDocsLogo,
   },
@@ -38,9 +40,8 @@ const data = [
     location: 'Waterloo, ON',
     dates: 'May 2023 - Aug 2023',
     bullets: [
-      'Collaborated with a team of researchers supervised by Professor Arie Gurfinkel to perform formal verification of Rust code using the SeaHorn verification framework, enhancing code reliability.',
-      'Reduced verification time by 50% by using alternatives to common data structures in the Rust standard library.',
-      'Demonstrated SeaHorn’s effectiveness by writing verification jobs to find errors in legacy versions of Rust crates.',
+      'Collaborated with a team of researchers supervised by Professor Arie Gurfinkel to perform formal verification of Rust code using the SeaHorn verification framework, enhancing code reliability, and eliminating logic errors.',
+      'Achieved a 50% reduction in verification time by using alternatives to common data structures in the Rust standard library, while maintaining accuracy by writing verification jobs to find errors in legacy versions of popular Rust crates.',
     ],
     image: WaterlooLogo,
   },
@@ -50,8 +51,8 @@ const data = [
     location: 'Toronto, ON',
     dates: 'Sep 2022 - Dec 2022',
     bullets: [
-      'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manually entry.',
-      'Optimized the CLI firmware for 5G radio devices and removed redundant command outputs, resulting in 20% faster runtime, and elimination of all input errors.',
+      'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manually entry and saving valuable engineering time and resources.',
+      'Optimized the CLI firmware for 5G radio devices and refactored redundant command outputs, resulting in 20% faster runtime, 10% less memory usage, more clear and concise output, and the elimination of all input errors.',
     ],
     image: PerasoLogo,
   },
@@ -62,7 +63,7 @@ const data = [
     dates: 'Jan 2022 - Apr 2022',
     bullets: [
       'Leveraged hidden AOSP Java classes to implement a critical feature for the map application in an in-vehicle infotainment system, demonstrating technical agility and understanding of OOP concepts.',
-      'Migrated legacy code to the latest Android, allowing for long-term compatibility with future development.',
+      'Migrated legacy code to the latest Android version and to use a newer build system, allowing for long-term compatibility with future development and a 25% reduction in build time.',
     ],
     image: FordLogo,
   },
@@ -90,7 +91,7 @@ const Experience = () => {
           return (
             <div className='container experience__container'>
               {
-                index % 2 === 1 ? <img src={image} alt={company} /> : <></>
+                index % 2 === 1 ? <img src={image} alt={company} className={company === 'RxFood' ? 'experience__rxfood-logo' : ''} /> : <></>
               }
               <div>
                 <h3 className='experience__company'>{company}</h3>
@@ -119,7 +120,7 @@ const Experience = () => {
                 </div>
               </div>
               {
-                index % 2 === 0 ? <img src={image} alt={company} /> : <></>
+                index % 2 === 0 ? <img src={image} alt={company} className={company === 'RxFood' ? 'experience__rxfood-logo' : ''} /> : <></>
               }
             </div>
           )
