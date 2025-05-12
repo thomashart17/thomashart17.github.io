@@ -51,7 +51,7 @@ const data = [
     location: 'Toronto, ON',
     dates: 'Sep 2022 - Dec 2022',
     bullets: [
-      'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manually entry and saving valuable engineering time and resources.',
+      'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manual entry and saving valuable engineering time and resources.',
       'Optimized the CLI firmware for 5G radio devices and refactored redundant command outputs, resulting in 20% faster runtime, 10% less memory usage, more clear and concise output, and the elimination of all input errors.',
     ],
     image: PerasoLogo,
@@ -63,7 +63,7 @@ const data = [
     dates: 'Jan 2022 - Apr 2022',
     bullets: [
       'Leveraged hidden AOSP Java classes to implement a critical feature for the map application in an in-vehicle infotainment system, demonstrating technical agility and understanding of OOP concepts.',
-      'Migrated legacy code to the latest Android version and to use a newer build system, allowing for long-term compatibility with future development and a 25% reduction in build time.',
+      'Migrated legacy code to the latest Android version and to a newer build system, allowing for long-term compatibility with future development and a 25% reduction in build time.',
     ],
     image: FordLogo,
   },
