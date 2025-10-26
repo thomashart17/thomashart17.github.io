@@ -8,8 +8,20 @@ import FordLogo from '../../assets/ford-logo.png'
 import ChurchillLogo from '../../assets/churchill-logo.png'
 import AIDocsLogo from '../../assets/ai-docs-logo.svg'
 import RxFoodLogo from '../../assets/rx-food-logo.svg'
+import RandoxLogo from '../../assets/randox-logo.svg'
 
 const data = [
+  {
+    company: 'Randox',
+    title: 'Software Engineer',
+    location: 'Antrim, Northern Ireland',
+    dates: 'Sept 2025 - Present',
+    bullets: [
+      'Rearchitected a Python Panel biochip viewing application using distributed computing with Dask to eliminate concurrent user stalling issues and improve system scalability for multiple simultaneous users.',
+      'Implemented a Prefect server with reverse proxy through NGINX to efficiently distribute and schedule critical services, streamlining workflow automation and improving system reliability and scalability.',
+    ],
+    image: RandoxLogo,
+  },
   {
     company: 'RxFood',
     title: 'Data Engineer',
