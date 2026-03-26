@@ -5,42 +5,40 @@ import Me from '../../assets/me-about.jpeg'
 const languages = [
   'C++',
   'C',
-  'Java',
   'Python',
   'Verilog',
   'Rust',
-  'VHDL',
-  'ARM Assembly',
-  'SQL',
-  'PostgreSQL',
-  'MySQL',
-  'HTML',
-  'CSS',
+  'Java',
   'Typescript',
   'JavaScript',
+  'ARM Assembly',
+  'PostgreSQL',
+  'MySQL',
 ]
 
 const frameworks = [
+  'Pandas',
+  'React.js',
+  'Django',
   'Langchain',
   'Android SDK',
   'AOSP',
-  'React.js',
-  'Django',
-  'Pandas',
 ]
 
 const tools = [
   'Linux',
   'Git',
+  'Vivado',
   'CMake',
+  'Make',
   'Tableau',
   'Metabase',
   'DBT',
 ]
 
 const hardware = [
-  'STM32',
   'FPGA',
+  'STM32',
   'Arduino',
   'Raspberry Pi',
   'Oscilloscope'
@@ -59,13 +57,7 @@ const About = () => {
           </div>
           <div className='about__paragraph'>
             <p>
-              I'm a 4A computer engineering student at the University of Waterloo, with a keen interest in both computer software and hardware. 
-              I have completed 5 co-op terms so far, working in a variety of roles in the diverse fields of software development. 
-              This experience has allowed me to gain experience in a variety of languages, frameworks, and tools, and has allowed me to develop the ability to quickly learn new technologies and adapt to new roles. 
-              Outside of my academic and professional endeavors, I've dedicated my time to a variety of personal projects, which have allowed me to explore my interests in more depth and further expand my skillset. 
-              In addition to the projects I have done on my own time, I have built projects for submission at 8 hackathons, winning prizes at 2 of them.
-              I am always open to hearing about exciting new opportunities and collaborating on new projects. 
-              If you're interested in connecting or collaborating, please feel free to reach out to me!
+            Computer Engineering student at the University of Waterloo graduating in April 2026, with six co-op terms of experience across software engineering, data engineering, and research. My primary interests are in FPGA and embedded systems, low-latency computing, and systems-level software. My capstone project is a pre-trade risk gateway built on an AMD FPGA for real-time risk checking in high-frequency trading, achieving sub-6 microsecond end-to-end latency. I'm currently looking for full-time opportunities in FPGA/embedded engineering or systems software roles.
             </p>
           </div>
         </div>

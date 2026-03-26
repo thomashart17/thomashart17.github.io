@@ -15,10 +15,11 @@ const data = [
     company: 'Randox',
     title: 'Software Engineer',
     location: 'Antrim, Northern Ireland',
-    dates: 'Sept 2025 - Present',
+    dates: 'Sep 2025 - Dec 2025',
     bullets: [
-      'Rearchitected a Python Panel biochip viewing application using distributed computing with Dask to eliminate concurrent user stalling issues and improve system scalability for multiple simultaneous users.',
-      'Implemented a Prefect server with reverse proxy through NGINX to efficiently distribute and schedule critical services, streamlining workflow automation and improving system reliability and scalability.',
+      'Rearchitected a Python Panel biochip viewing application using distributed computing with Dask to eliminate concurrent user stalling and improve scalability for multiple simultaneous users.',
+      'Implemented a Prefect server with reverse proxy through NGINX to distribute and schedule critical services, streamlining workflow automation and improving system reliability.',
+      'Optimized backend database queries and indexing strategies to reduce load times by 95%+ for critical internal applications using SQL Server and SQLAlchemy.'
     ],
     image: RandoxLogo,
   },
@@ -29,20 +30,18 @@ const data = [
     dates: 'Jan 2025 - Apr 2025',
     bullets: [
       'Built a custom reporting engine using Python and PostgreSQL to automatically generate patient outcome reports for clinicians, saving 2-3 hours of manual work per report and improving long-term scalability.',
-      'Added interactive graphs and visualizations to the clinician portal using React.js and TypeScript, improving usability and enabling actionable insights into patient health trends for 600+ clinicians.'
+      'Added interactive visualizations to the clinician portal using React.js and TypeScript, enabling actionable insights into patient health trends for 600+ clinicians.'
     ],
     image: RxFoodLogo,
   },
   {
     company: 'AI Docs',
-    title: 'Founder',
+    title: 'Software Engineer - Enterprise Co-op',
     location: 'Vancouver, BC',
     dates: 'Jan 2024 - Jun 2024',
     bullets: [
-      'Leveraged prompt engineering and fine-tuning techniques on LLMs using Python and Langchain to create a tool that automatically writes documentation for codebases, enabling faster and more streamlined development.',
-      'Won the Overbeeke Family Entrepreneurship Excellence Award ($5,000) from the University of Waterloo’s enterprise co-op pitch competition out of 30+ students, recognizing the tool’s impact on development efficiency.',
-      'Engaged with potential users to identify key documentation challenges, directly influencing design decisions.',
-      'Made the strategic decision to discontinue the project after determining that existing LLMs lacked the necessary contextual understanding, and that developing a new LLM wasn’t feasible due to financial constraints.'
+      'Built a codebase documentation tool using Python, Langchain, and abstract syntax tree parsing to automatically generate structured documentation from source code.',
+      'Won the Overbeeke Family Entrepreneurship Excellence Award ($5,000) from the University of Waterloo\'s enterprise co-op pitch competition out of 30+ students.',
     ],
     image: AIDocsLogo,
   },
@@ -52,8 +51,8 @@ const data = [
     location: 'Waterloo, ON',
     dates: 'May 2023 - Aug 2023',
     bullets: [
-      'Collaborated with a team of researchers supervised by Professor Arie Gurfinkel to perform formal verification of Rust code using the SeaHorn verification framework, enhancing code reliability, and eliminating logic errors.',
-      'Achieved a 50% reduction in verification time by using alternatives to common data structures in the Rust standard library, while maintaining accuracy by writing verification jobs to find errors in legacy versions of popular Rust crates.',
+      'Performed formal verification of Rust code using the SeaHorn verification framework, achieving a 50% reduction in verification time by implementing alternatives to standard library data structures.',
+      'Validated accuracy by writing verification jobs to detect errors in legacy versions of popular Rust crates.',
     ],
     image: WaterlooLogo,
   },
@@ -63,8 +62,8 @@ const data = [
     location: 'Toronto, ON',
     dates: 'Sep 2022 - Dec 2022',
     bullets: [
-      'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manual entry and saving valuable engineering time and resources.',
-      'Optimized the CLI firmware for 5G radio devices and refactored redundant command outputs, resulting in 20% faster runtime, 10% less memory usage, more clear and concise output, and the elimination of all input errors.',
+      'Developed a custom XML parsing and generation tool in C++ to streamline EEPROM programming, achieving 95% faster input speed compared to manual entry.',
+      'Optimized CLI firmware for 5G radio devices and refactored redundant command outputs, resulting in 20% faster runtime and 10% reduction in memory usage.',
     ],
     image: PerasoLogo,
   },
@@ -74,8 +73,8 @@ const data = [
     location: 'Remote',
     dates: 'Jan 2022 - Apr 2022',
     bullets: [
-      'Leveraged hidden AOSP Java classes to implement a critical feature for the map application in an in-vehicle infotainment system, demonstrating technical agility and understanding of OOP concepts.',
-      'Migrated legacy code to the latest Android version and to a newer build system, allowing for long-term compatibility with future development and a 25% reduction in build time.',
+      'Migrated legacy code to the latest Android version and newer build system, enabling long-term compatibility and a 25% reduction in build time.',
+      'Implemented a feature for the map application in an in-vehicle infotainment system using hidden AOSP Java classes.',
     ],
     image: FordLogo,
   },
