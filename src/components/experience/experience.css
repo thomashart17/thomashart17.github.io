@@ -60,16 +60,25 @@
 
 .experience__details {
     display: flex;
+    align-items: flex-start;
     gap: 1rem;
 }
 
 .experience__details h4 {
+    flex: 1;
+    min-width: 0;
+    line-height: 1.7;
     padding-bottom: 0.2rem;
 }
 
+/* Center star in the first line box (line-height leaves space above/below glyphs). */
 .experience__details-icon {
-    margin-top: 6px;
+    flex-shrink: 0;
+    margin-top: calc((1rem * 1.7 - 0.75rem) / 2);
     color: var(--color-white);
+    font-size: 0.75rem;
+    width: 1em;
+    height: 1em;
 }
 
 @media screen and (max-width: 1300px) {
