@@ -57,7 +57,7 @@ const About = () => {
           </div>
           <div className='about__paragraph'>
             <p>
-            Computer Engineering student at the University of Waterloo graduating in April 2026, with six co-op terms of experience across software engineering, data engineering, and research. My primary interests are in FPGA and embedded systems, low-latency computing, and systems-level software. My capstone project is a pre-trade risk gateway built on an AMD FPGA for real-time risk checking in high-frequency trading, achieving sub-6 microsecond end-to-end latency. I'm currently looking for full-time opportunities in FPGA/embedded engineering or systems software roles.
+            Recent graduate from Computer Engineering at the University of Waterloo, with six co-op terms of experience across software engineering, data engineering, and research. My primary interests are in FPGA and embedded systems, low-latency computing, and systems-level software. My capstone project is a pre-trade risk gateway built on an AMD FPGA for real-time risk checking in high-frequency trading, achieving sub-6 microsecond end-to-end latency. I'm currently looking for full-time opportunities in FPGA/embedded engineering or systems software roles.
             </p>
           </div>
         </div>
