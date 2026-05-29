@@ -1,0 +1,483 @@
+/* ── Capstone page layout ───────────────────────────────────────── */
+.capstone {
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+
+/* ── Back navigation bar ────────────────────────────────────────── */
+.capstone__back-bar {
+  padding: 1.5rem 0 0;
+}
+
+.capstone__back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.capstone__back-link:hover {
+  color: var(--color-white);
+}
+
+/* ── Hero ───────────────────────────────────────────────────────── */
+.capstone__hero {
+  padding: 3rem 0 3.5rem;
+  text-align: center;
+}
+
+.capstone__hero h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.capstone__subtitle {
+  color: var(--color-light);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.capstone__stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.capstone__stat {
+  background: var(--color-bg-variant);
+  border: 1px solid var(--color-primary-variant);
+  border-radius: 0.8rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 140px;
+}
+
+.capstone__stat-value {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.capstone__stat-label {
+  font-size: 0.78rem;
+  color: var(--color-light);
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+/* ── Content area ───────────────────────────────────────────────── */
+.capstone__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ── Section ────────────────────────────────────────────────────── */
+.capstone__section {
+  margin-top: 3rem;
+}
+
+.capstone__section h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-primary-variant);
+}
+
+.capstone__section p {
+  color: var(--color-light);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.capstone__section code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.88em;
+  color: var(--color-primary);
+  background: rgba(77, 181, 255, 0.08);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+.capstone__section-intro {
+  color: var(--color-light);
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+}
+
+/* ── Hero image ─────────────────────────────────────────────────── */
+.capstone__hero-img {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.capstone__hero-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Image placeholders ─────────────────────────────────────────── */
+.capstone__img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-variant);
+  border: 1px dashed var(--color-primary-variant);
+  border-radius: 0.75rem;
+  height: 260px;
+  width: 100%;
+}
+
+.capstone__img-placeholder--wide {
+  height: 260px;
+}
+
+.capstone__img-placeholder span {
+  color: var(--color-light);
+  font-size: 0.85rem;
+}
+
+/* ── Architecture diagram ───────────────────────────────────────── */
+.capstone__diagram-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-radius: 0.75rem;
+  background: rgba(15, 15, 40, 0.6);
+  border: 1px solid rgba(77, 181, 255, 0.15);
+  padding: 1rem;
+}
+
+.capstone__svg {
+  width: 100%;
+  min-width: 640px;
+  display: block;
+}
+
+.capstone__diagram-caption {
+  font-size: 0.875rem;
+  color: var(--color-light);
+  margin-top: 0.75rem;
+  line-height: 1.7;
+}
+
+/* ── Risk check list ────────────────────────────────────────────── */
+.capstone__checks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+  list-style: none;
+  padding: 0;
+  counter-reset: none;
+}
+
+.capstone__check {
+  display: grid;
+  grid-template-columns: 1.5rem 16rem minmax(0, 1fr);
+  align-items: baseline;
+  gap: 0.75rem;
+  background: var(--color-bg-variant);
+  padding: 0.65rem 1rem;
+  border-radius: 0.5rem;
+  border-left: 3px solid var(--color-primary-variant);
+  transition: var(--transition);
+}
+
+.capstone__check:hover {
+  border-left-color: var(--color-primary);
+  background: rgba(44, 44, 108, 0.8);
+}
+
+.capstone__check-num {
+  color: var(--color-primary);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+.capstone__check-name {
+  color: var(--color-white);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.capstone__check-desc {
+  color: var(--color-light);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.capstone__note {
+  font-size: 0.85rem;
+  color: var(--color-light);
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-left: 2px solid var(--color-primary-variant);
+  background: rgba(77, 181, 255, 0.04);
+  border-radius: 0 0.4rem 0.4rem 0;
+  line-height: 1.7;
+}
+
+/* ── Implementation subsections ─────────────────────────────────── */
+.capstone__impl-group {
+  margin-top: 1.75rem;
+}
+
+.capstone__impl-group h3 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-bottom: 0.75rem;
+}
+
+.capstone__impl-group ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.capstone__impl-group li {
+  color: var(--color-light);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  padding-left: 1.1rem;
+  position: relative;
+}
+
+.capstone__impl-group li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+}
+
+/* ── Results ────────────────────────────────────────────────────── */
+.capstone__results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.capstone__result {
+  background: var(--color-bg-variant);
+  padding: 1rem 1.2rem;
+  border-radius: 0.75rem;
+  border-left: 3px solid var(--color-primary);
+}
+
+.capstone__result-label {
+  font-size: 0.78rem;
+  color: var(--color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3rem;
+}
+
+.capstone__result-value {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-white);
+  margin-bottom: 0.4rem;
+}
+
+.capstone__result-note {
+  font-size: 0.8rem;
+  color: var(--color-light);
+  line-height: 1.6;
+}
+
+/* Resource utilization table */
+.capstone__util-heading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-white);
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.capstone__table-wrap {
+  overflow-x: auto;
+}
+
+.capstone__util-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 0.9rem;
+}
+
+.capstone__util-table th,
+.capstone__util-table td {
+  padding: 0.65rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(77, 181, 255, 0.12);
+}
+
+.capstone__util-table th {
+  color: var(--color-light);
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.capstone__util-table td {
+  color: var(--color-white);
+}
+
+.capstone__util-table tr:last-child td {
+  border-bottom: none;
+}
+
+.capstone__util-table tr:nth-child(even) {
+  background: rgba(44, 44, 108, 0.3);
+}
+
+.capstone__placeholder {
+  color: var(--color-light) !important;
+  font-style: italic;
+}
+
+/* ── Credits ────────────────────────────────────────────────────── */
+.capstone__credits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.capstone__credits li {
+  color: var(--color-white);
+  background: var(--color-bg-variant);
+  border: 1px solid var(--color-primary-variant);
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+}
+
+/* ── Dashboard caption + image ──────────────────────────────────── */
+.capstone__dashboard-caption {
+  margin-top: 2rem;
+}
+
+.capstone__dashboard-caption h3 {
+  font-size: 1rem;
+  color: var(--color-white);
+  margin-bottom: 0.4rem;
+}
+
+.capstone__dashboard-caption p {
+  color: var(--color-light);
+  font-size: 0.9rem;
+}
+
+/* ── Dashboard image ────────────────────────────────────────────── */
+.capstone__dashboard-img {
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-primary-variant);
+}
+
+/* ── Links section ──────────────────────────────────────────────── */
+.capstone__links-section {
+  padding-bottom: 2rem;
+}
+
+.capstone__links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn.capstone__link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn.capstone__link-btn svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────── */
+@media screen and (max-width: 1024px) {
+  .capstone__hero h1 {
+    font-size: 2rem;
+  }
+
+  .capstone__results-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .capstone__check {
+    grid-template-columns: 1.5rem 13rem minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .capstone__hero h1 {
+    font-size: 1.55rem;
+  }
+
+  .capstone__subtitle {
+    font-size: 0.9rem;
+  }
+
+  .capstone__stat {
+    min-width: 120px;
+    padding: 0.8rem 1rem;
+  }
+
+  .capstone__stat-value {
+    font-size: 1.1rem;
+  }
+
+  .capstone__check {
+    grid-template-columns: 1.5rem 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .capstone__check-name {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .capstone__check-desc {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    padding-left: 2.25rem;
+  }
+
+  .capstone__section h2 {
+    font-size: 1.25rem;
+  }
+}

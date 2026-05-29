@@ -5,6 +5,9 @@
 }
 
 .projects__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
@@ -21,6 +24,12 @@
     border-radius: 1.5rem;
     overflow: hidden;
     object-fit: fill;
+}
+
+.projects__item-placeholder {
+    height: 160px;
+    background: linear-gradient(135deg, #1a1a38 0%, #2c2c6c 60%, #1a1a38 100%);
+    border-radius: 1.5rem;
 }
 
 .projects__item h3 {
@@ -43,6 +52,7 @@
 .projects__item-btn {
     display: flex;
     gap: 1rem;
+    margin-top: auto;
 }
 
 .projects__item-btn a {

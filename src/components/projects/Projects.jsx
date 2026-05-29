@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './projects.css'
+import RiskGatewayDashboard from '../../assets/risk-gateway-dashboard.png'
 import ArduinoStockDisplay from '../../assets/ArduinoStockDisplay.jpg'
 import PicPerfect from '../../assets/PicPerfect.jpg'
 import FinanceBroTranslator from '../../assets/FinanceBroTranslator.png'
@@ -14,18 +16,20 @@ import MorseCode from '../../assets/MorseCode.jpg'
 import MiniGolf from '../../assets/MiniGolf.jpg'
 import GolfStats from '../../assets/GolfStats.jpg'
 import DiscordBot from '../../assets/DiscordBot.jpg'
-import { BsGithub, BsGlobe, BsYoutube } from 'react-icons/bs'
-import { SiDjango, SiDevpost, SiC, SiCplusplus, SiPython, SiJava, SiJavascript, SiHtml5, SiCss3, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi, SiTensorflow, SiOpencv } from 'react-icons/si'
+import { BsGithub, BsGlobe, BsYoutube, BsCpuFill, BsMortarboardFill } from 'react-icons/bs'
+import { SiDjango, SiDevpost, SiC, SiCplusplus, SiPython, SiOpenjdk, SiJavascript, SiHtml5, SiCss, SiReact, SiArduino, SiAndroid, SiStmicroelectronics, SiScikitlearn, SiRaspberrypi, SiTensorflow, SiOpencv, SiLinux } from 'react-icons/si'
 
 const logos = {
   'Android': <SiAndroid size={20} />,
+  'FPGA': <BsCpuFill size={20} />,
+  'Linux': <SiLinux size={20} />,
   'Arduino': <SiArduino size={20} />,
   'C': <SiC size={20} />,
   'C++': <SiCplusplus size={20} />,
-  'CSS': <SiCss3 size={20} />,
+  'CSS': <SiCss size={20} />,
   'Django': <SiDjango size={20} />,
   'HTML': <SiHtml5 size={20} />,
-  'Java': <SiJava size={20} />,
+  'Java': <SiOpenjdk size={20} />,
   'JavaScript': <SiJavascript size={20} />,
   'OpenCV': <SiOpencv size={20} />,
   'Python': <SiPython size={20} />,
@@ -37,6 +41,26 @@ const logos = {
 }
 
 const data = [
+  {
+    image: RiskGatewayDashboard,
+    title: 'FPGA Pre-Trade Risk Gateway',
+    languages: ['FPGA', 'C', 'Linux'],
+    description: 'Hardware-accelerated OUCH order validation on AMD KV260. 12 parallel risk checks in a single FPGA clock cycle, ~5.5 µs end-to-end latency.',
+    links: [
+      {
+        link: 'https://github.com/thomashart17/pre-trade-risk-gateway',
+        icon: <BsGithub />,
+      },
+      {
+        route: '/capstone',
+        icon: <BsGlobe />,
+      },
+      {
+        link: 'https://uwaterloo.ca/capstone-design/project-abstracts/2026-capstone-design-projects/2026-electrical-and-computer-engineering-capstone-designs#59',
+        icon: <BsMortarboardFill />,
+      }
+    ],
+  },
   {
     image: ArduinoStockDisplay,
     title: 'Arduino Stock Ticker Display',
@@ -315,14 +339,17 @@ const Projects = () => {
             return (
               <article className='projects__item'>
                 <div className="projects__item-image">
-                  <img src={image} alt={title} />
+                  {image
+                    ? <img src={image} alt={title} />
+                    : <div className="projects__item-placeholder" aria-hidden="true" />
+                  }
                 </div>
                 <h3>{title}</h3>
                 <ul>
                   {
                     languages.map((value) => {
                       return (
-                        <li>{logos[value]}</li>
+                        <li key={value}>{logos[value]}</li>
                       )
                     })
                   }
@@ -330,14 +357,19 @@ const Projects = () => {
                 <p>{description}</p>
                 <div className='projects__item-btn'>
                   {
-                    links.map(({ link, icon }) => {
+                    links.map(({ link, route, icon }) => {
+                      if (route) {
+                        return (
+                          <Link key={route} to={route} onClick={() => window.scrollTo(0, 0)}>{icon}</Link>
+                        )
+                      }
                       if (link === 'https://thomashart.tech') {
                         return (
-                          <a href={link}>{icon}</a>
+                          <a key={link} href={link}>{icon}</a>
                         )
                       }
                       return (
-                        <a href={link} target='_blank'>{icon}</a>
+                        <a key={link} href={link} target='_blank' rel='noopener noreferrer'>{icon}</a>
                       )
                     })
                   }
