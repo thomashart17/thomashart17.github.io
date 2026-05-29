@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thomas Hart</title>
+  <script>
+    // Single Page Apps for GitHub Pages — https://github.com/rafgraph/spa-github-pages
+    // pathSegmentsToKeep=0 because the site is at the domain root (custom domain).
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      '/?/' +
+      l.pathname.slice(1).replace(/&/g, '~and~') +
+      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.hash
+    );
+  </script>
+</head>
+<body></body>
+</html>
