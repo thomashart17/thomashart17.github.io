@@ -57,7 +57,7 @@ const About = () => {
           </div>
           <div className='about__paragraph'>
             <p>
-            Recent graduate from Computer Engineering at the University of Waterloo, with six co-op terms of experience across software engineering, data engineering, and research. My primary interests are in FPGA and embedded systems, low-latency computing, and systems-level software. My capstone project is a pre-trade risk gateway built on an AMD FPGA for real-time risk checking in high-frequency trading, achieving sub-6 microsecond end-to-end latency. I'm currently looking for full-time opportunities in FPGA/embedded engineering or systems software roles.
+            Embedded Software Engineer at Fortinet and University of Waterloo Computer Engineering graduate with experience across embedded systems, systems software, data engineering, and software engineering. I'm particularly interested in networking, low-latency computing, and performance-critical systems, and I enjoy building software that operates close to the hardware and solves complex technical problems.
             </p>
           </div>
         </div>

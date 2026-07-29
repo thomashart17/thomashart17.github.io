@@ -9,8 +9,19 @@ import ChurchillLogo from '../../assets/churchill-logo.png'
 import AIDocsLogo from '../../assets/ai-docs-logo.svg'
 import RxFoodLogo from '../../assets/rx-food-logo.svg'
 import RandoxLogo from '../../assets/randox-logo.svg'
+import FortinetLogo from '../../assets/fortinet-logo.svg'
 
 const data = [
+  {
+    company: 'Fortinet',
+    title: 'Embedded Software Engineer',
+    location: 'Burnaby, BC',
+    dates: 'Jul 2026 - Present',
+    bullets: [
+      'Developing embedded software for the FortiGate firewall platform.',
+    ],
+    image: FortinetLogo,
+  },
   {
     company: 'Randox',
     title: 'Software Engineer',
