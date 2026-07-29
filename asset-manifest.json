@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.698eb0a0.css",
-    "main.js": "/static/js/main.eaf23cb2.js",
+    "main.js": "/static/js/main.73efb48b.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
@@ -26,12 +26,13 @@
     "static/media/ai-docs-logo.svg": "/static/media/ai-docs-logo.4b6aa63a7beeef7f933f16ed5ae0d909.svg",
     "static/media/rx-food-logo.svg": "/static/media/rx-food-logo.9a0c829941ed426bf94b8e96825e292e.svg",
     "static/media/randox-logo.svg": "/static/media/randox-logo.89d3ab38ca7dbf1919a80d5d45e7fb6b.svg",
+    "static/media/fortinet-logo.svg": "/static/media/fortinet-logo.4f90484b7a3fee827c64bbf359e781b9.svg",
     "index.html": "/index.html",
     "main.698eb0a0.css.map": "/static/css/main.698eb0a0.css.map",
-    "main.eaf23cb2.js.map": "/static/js/main.eaf23cb2.js.map"
+    "main.73efb48b.js.map": "/static/js/main.73efb48b.js.map"
   },
   "entrypoints": [
     "static/css/main.698eb0a0.css",
-    "static/js/main.eaf23cb2.js"
+    "static/js/main.73efb48b.js"
   ]
 }
