@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.698eb0a0.css",
-    "main.js": "/static/js/main.73efb48b.js",
+    "main.js": "/static/js/main.19f3afa1.js",
     "static/media/MorseCode.jpg": "/static/media/MorseCode.bd39cd0bd5f15b616b62.jpg",
     "static/media/ArduinoSnake.jpg": "/static/media/ArduinoSnake.35d697b59ddfa9ee0715.jpg",
     "static/media/MagicGlove.jpg": "/static/media/MagicGlove.fbd5766bb55b1c9a6e1a.jpg",
@@ -29,10 +29,10 @@
     "static/media/fortinet-logo.svg": "/static/media/fortinet-logo.4f90484b7a3fee827c64bbf359e781b9.svg",
     "index.html": "/index.html",
     "main.698eb0a0.css.map": "/static/css/main.698eb0a0.css.map",
-    "main.73efb48b.js.map": "/static/js/main.73efb48b.js.map"
+    "main.19f3afa1.js.map": "/static/js/main.19f3afa1.js.map"
   },
   "entrypoints": [
     "static/css/main.698eb0a0.css",
-    "static/js/main.73efb48b.js"
+    "static/js/main.19f3afa1.js"
   ]
 }
