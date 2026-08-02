@@ -24,8 +24,8 @@ const Contact = () => {
           <article className='contact__option'>
             <MdEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>thomas.hart@uwaterloo.ca</h5>
-            <a href='mailto:thomas.hart@uwaterloo.ca'>Send Message</a>
+            <h5>thomas@thomashart.tech</h5>
+            <a href='mailto:thomas@thomashart.tech'>Send Message</a>
           </article>
           <article className='contact__option'>
             <AiFillPhone className='contact__option-icon'/>
